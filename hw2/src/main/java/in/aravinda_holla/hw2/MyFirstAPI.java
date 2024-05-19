@@ -9,7 +9,7 @@ public class MyFirstAPI {
 
     @RequestMapping("/hello")
     public String sayHello() {
-        return "Hello Class 1!";
+        return "Hello Class! Try Now";
     }
 
     @RequestMapping("/hello/{name}")
